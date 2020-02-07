@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'EA-Sport';
+    src: url('font/EA Sports.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('font/Poppins-light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/Poppins-medium.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0;
+}
+
+#container_stat {
+	display: flex;
+	flex-direction: column;
+}
+
+#container_stat h1 {
+	font-family: 'poppins';
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 0;
+}
+
+section {
+	margin-top: 100px;
+	margin-left: 5%;
+	display: flex;
+	flex-direction: row;
+	font-family: 'poppins';	
+}
+
+section ul {
+	list-style: none;
+	padding: 0;
+}
+
+.joueur {
+	margin: auto;
+}
+
+.joueur h2 {
+	font-family: 'poppins-light';
+}

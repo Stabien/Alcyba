@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/Poppins-medium.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'EA-Sport';
+    src: url('font/EA Sports.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('font/Poppins-light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#Entete { 
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+/*#Submit{
+    font-family: 'Poppins';
+    width: 50%;
+    height: 45px;
+    text-align: center;
+    font-size: 110%;
+
+}*/
+#centrer{
+    position: absolute;
+    width: 340px;
+    height: 530px;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid black;
+    border-radius: 15px;
+
+}
+
+.erreur {
+    visibility: hidden;
+    color: red;
+    font-family: 'Poppins-light';
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#fail_login {
+    color: red;
+    font-family: 'Poppins-light';
+    text-align: center;
+    font-size: 16px;
+}
+
+/*#encadrer{
+    font-family: 'Poppins';
+    width: 80%;
+    text-align: center;
+    height: 50px;
+    border-radius: 2%;
+    font-size: 120%;
+}
+#encadrer2{
+    font-family: 'Poppins';
+    width: 80%;
+    text-align: center;
+    height: 50px;
+    border-radius: 2%;
+    font-size: 120%;
+}*/
+
+.input {
+    border: none;
+    padding: 12px;
+    padding-left: 10px;
+    padding-right: 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    transition: 0.25s;
+}
+
+#submit {
+    border: none;
+    border-radius: 30px;
+    border: 2px solid #4efd77;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 45px;
+    background: white;
+    text-align: center;
+    color: black;
+    transition: 0.25s;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+#submit:hover {
+    background: #4efd77;
+    color: white;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.input:focus {
+    border-color: #4efd77;
+    padding-right: 80px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.input:focus ::placeholder {
+    display: none;
+}
+
+#texte1{
+    font-family: 'Poppins';
+    font-size: 155%;
+}
+
+#texte2{
+    font-family: 'Poppins';
+    font-size: 155%;
+}
+
+a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'poppins-light';
+    color: black;
+    font-size: 14px;
+}

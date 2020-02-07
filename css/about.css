@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'EA-Sport';
+    src: url('font/EA Sports.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('font/Poppins-light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/Poppins-medium.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0;
+}
+
+section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#qui {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+#president {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	margin-top: 100px;
+}
+
+#president img {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+
+}
+
+#president h2 {
+	font-family: 'poppins';
+	text-align: center;
+	font-size: 18px;
+}
+
+#presentation {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	margin-top: 85px;
+	margin-left: 0px;
+	text-align: center;
+	font-family: 'poppins-light';
+	width: 800px;
+}
+
+#innovation {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	margin-top: 35px;
+	width: 100%;
+}
+
+#innovation img {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+#texte_innovation {
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	text-align: center;
+	font-family: 'poppins-light';
+	margin: auto;
+	margin-left: 0;
+}
+
+#partenaire {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin-top: 70px;
+	font-family: 'poppins-light';
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#partenaire img {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+#texte_partenaire {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	margin-left: 0;
+	width: 800px;
+}
+
+#texte_partenaire h2 {
+	margin-bottom: 0;
+}
+
+#logo_partenaire {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	margin-bottom: 20px;
+}
+
+#logo_partenaire img {
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer {
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	background: #262626;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+footer p {
+	font-family: 'Poppins-light';
+	color: white;
+	text-align: center;
+	margin: auto;
+}
